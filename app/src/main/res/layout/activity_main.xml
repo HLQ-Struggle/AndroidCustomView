@@ -23,7 +23,13 @@
             android:id="@+id/btn_circle_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="The First 画些圆" />
+            android:text="画些圆" />
+
+        <Button
+            android:id="@+id/btn_rect_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="画矩形" />
 
     </LinearLayout>
 </ScrollView>

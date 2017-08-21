@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.CircleActivity"></activity>
+        <activity android:name=".activities.CircleActivity" />
+        <activity android:name=".activities.RectActivity"></activity>
     </application>
 
 </manifest>

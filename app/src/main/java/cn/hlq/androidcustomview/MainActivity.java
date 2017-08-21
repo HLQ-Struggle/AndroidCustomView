@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import cn.hlq.androidcustomview.activities.CircleActivity;
+import cn.hlq.androidcustomview.activities.RectActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,10 +20,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
+        // 绘制圆
         findViewById(R.id.btn_circle_view).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(selfActivity, CircleActivity.class));
+            }
+        });
+        // 绘制矩形
+        findViewById(R.id.btn_rect_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(selfActivity, RectActivity.class));
             }
         });
     }
