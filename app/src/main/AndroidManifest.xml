@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.CircleActivity" />
-        <activity android:name=".activities.RectActivity"></activity>
+        <activity android:name=".activities.RectActivity" />
+        <activity android:name=".activities.ViewGroupActivity"/>
     </application>
 
 </manifest>

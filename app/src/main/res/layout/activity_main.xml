@@ -31,5 +31,11 @@
             android:layout_height="wrap_content"
             android:text="画矩形" />
 
+        <Button
+            android:id="@+id/btn_hlq_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="画线，弧度，扇形" />
+
     </LinearLayout>
 </ScrollView>

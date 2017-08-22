@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
@@ -23,6 +24,8 @@ public class CircleView extends View {
     private Paint antiAliasPaint; // 抗锯齿画笔
     private Paint strokePaint; // 空心圆画笔
     private Paint strokeWPaint; // 空心圆宽度画笔
+
+    private RectF rectF;
 
     public CircleView(Context context) {
         this(context, null);
@@ -88,6 +91,14 @@ public class CircleView extends View {
 
         // 指定绘制空心圆并设置边框线宽度
         canvas.drawCircle(700, 700, 100, strokeWPaint);
+
+        // 绘制椭圆
+        rectF=new RectF();
+        rectF.left=100;
+        rectF.top=600;
+        rectF.right=400;
+        rectF.bottom=800;
+        canvas.drawOval(rectF,paint);
 
     }
 
