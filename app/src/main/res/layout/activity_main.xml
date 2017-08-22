@@ -23,19 +23,25 @@
             android:id="@+id/btn_circle_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="画些圆" />
+            android:text="绘制些圆" />
 
         <Button
             android:id="@+id/btn_rect_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="画矩形" />
+            android:text="绘制矩形" />
 
         <Button
             android:id="@+id/btn_hlq_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="画线，弧度，扇形" />
+            android:text="绘制线，弧度，扇形，点" />
+
+        <Button
+            android:id="@+id/btn_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绘制文字" />
 
     </LinearLayout>
 </ScrollView>

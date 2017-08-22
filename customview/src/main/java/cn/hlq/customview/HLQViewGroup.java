@@ -85,7 +85,7 @@ public class HLQViewGroup extends View {
         canvas.drawArc(rectF,0,90,true,paint);
 
         // 绘制点
-        paint.setStrokeWidth(50);
         canvas.drawPoint(600,500,paint);
+
     }
 }

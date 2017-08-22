@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".activities.CircleActivity" />
         <activity android:name=".activities.RectActivity" />
-        <activity android:name=".activities.ViewGroupActivity"/>
+        <activity android:name=".activities.ViewGroupActivity" />
+        <activity android:name=".activities.TextActivity"/>
     </application>
 
 </manifest>

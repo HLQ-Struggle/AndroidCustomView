@@ -7,6 +7,7 @@ import android.view.View;
 
 import cn.hlq.androidcustomview.activities.CircleActivity;
 import cn.hlq.androidcustomview.activities.RectActivity;
+import cn.hlq.androidcustomview.activities.TextActivity;
 import cn.hlq.androidcustomview.activities.ViewGroupActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
     }
 
     private void initView() {
@@ -40,6 +46,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(selfActivity, ViewGroupActivity.class));
+            }
+        });
+        // 绘制文字
+        findViewById(R.id.btn_text_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(selfActivity, TextActivity.class));
             }
         });
     }
