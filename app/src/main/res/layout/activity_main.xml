@@ -43,5 +43,11 @@
             android:layout_height="wrap_content"
             android:text="绘制文字" />
 
+        <Button
+            android:id="@+id/btn_piechart_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绘制饼图" />
+
     </LinearLayout>
 </ScrollView>

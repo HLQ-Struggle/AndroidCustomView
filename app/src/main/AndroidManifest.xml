@@ -19,7 +19,8 @@
         <activity android:name=".activities.CircleActivity" />
         <activity android:name=".activities.RectActivity" />
         <activity android:name=".activities.ViewGroupActivity" />
-        <activity android:name=".activities.TextActivity"/>
+        <activity android:name=".activities.TextActivity" />
+        <activity android:name=".activities.PieChartActivity"></activity>
     </application>
 
 </manifest>
